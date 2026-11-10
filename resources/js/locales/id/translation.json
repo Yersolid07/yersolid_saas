@@ -1,0 +1,36 @@
+{
+  "dashboard": {
+    "admin": "Dasbor Admin",
+    "staff": "Dasbor Staf",
+    "customer": "Dasbor Pelanggan",
+    "today_checkins": "Check-in Hari Ini",
+    "today_checkouts": "Check-out Hari Ini",
+    "no_data": "Tidak ada data tersedia.",
+    "upcoming_reservations": "Reservasi Mendatang",
+    "no_upcoming_reservations": "Anda tidak memiliki reservasi mendatang.",
+    "total_revenue": "Total Pendapatan",
+    "total_reservations": "Total Reservasi",
+    "active_orders": "Pesanan Makanan Aktif"
+  },
+  "actions": {
+    "book_now": "Pesan Sekarang",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Ubah",
+    "view": "Lihat Detail"
+  },
+  "menu": {
+    "dashboard": "Dasbor",
+    "facilities": "Fasilitas",
+    "reservations": "Reservasi",
+    "menu_items": "Menu Makanan",
+    "food_orders": "Pesanan Makanan",
+    "payments": "Pembayaran",
+    "reviews": "Ulasan",
+    "users": "Pengguna",
+    "reports": "Laporan",
+    "profile": "Profil",
+    "logout": "Keluar"
+  }
+}

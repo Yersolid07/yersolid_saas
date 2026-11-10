@@ -1,0 +1,36 @@
+{
+  "dashboard": {
+    "admin": "Admin Dashboard",
+    "staff": "Staff Dashboard",
+    "customer": "Customer Dashboard",
+    "today_checkins": "Today's Check-ins",
+    "today_checkouts": "Today's Check-outs",
+    "no_data": "No data available.",
+    "upcoming_reservations": "Upcoming Reservations",
+    "no_upcoming_reservations": "You have no upcoming reservations.",
+    "total_revenue": "Total Revenue",
+    "total_reservations": "Total Reservations",
+    "active_orders": "Active Food Orders"
+  },
+  "actions": {
+    "book_now": "Book Now",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View Details"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "facilities": "Facilities",
+    "reservations": "Reservations",
+    "menu_items": "Menu Items",
+    "food_orders": "Food Orders",
+    "payments": "Payments",
+    "reviews": "Reviews",
+    "users": "Users",
+    "reports": "Reports",
+    "profile": "Profile",
+    "logout": "Log Out"
+  }
+}

@@ -1,0 +1,39 @@
+# robots.txt — yourdomain.com
+# Private/operational areas: keep out of search results.
+# Scanner-bait paths: listed so well-behaved bots stop probing them.
+# Note: these rules are a courtesy for crawlers only. Real blocking of hostile
+# scanners is enforced at the Cloudflare / nginx edge, not here.
+
+User-agent: *
+Allow: /
+Disallow: /staff/
+Disallow: /admin/
+Disallow: /dashboard
+Disallow: /login
+Disallow: /register
+Disallow: /password/
+Disallow: /api/
+Disallow: /webhook/
+Disallow: /storage/
+
+# Vendor-config probing that only ever produces 404s (see access.log).
+Disallow: /.env
+Disallow: /.env.*
+Disallow: /*.env
+Disallow: /.git
+Disallow: /.git/*
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php
+Disallow: /phpmyadmin*
+Disallow: /adminer*
+Disallow: /*.sql
+Disallow: /*.bak
+Disallow: /*.map
+Disallow: /*.log
+Disallow: /config.json
+Disallow: /package.json
+Disallow: /composer.json
+Disallow: /phpinfo.php
+
+Sitemap: https://yourdomain.com/sitemap.xml
